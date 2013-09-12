@@ -1,0 +1,14 @@
+language: cpp
+compiler:
+  - gcc
+
+# setup the environment
+before_install:
+  # update apt-get, install dependencies
+  - sudo apt-get update -qq
+
+  - sudo apt-get install -qq doxygen
+
+# build each example
+script:
+  # TODO
