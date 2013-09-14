@@ -31,36 +31,3 @@ Vectorizing loop at countable.cpp:28
 
 28: LOOP VECTORIZED.
 countable.cpp:23: note: vectorized 1 loops in function.
-
-Analyzing loop at countable.cpp:42
-
-42: not vectorized: loop contains function calls or data references that cannot be analyzed
-Analyzing loop at countable.cpp:35
-
-35: not vectorized: control flow in loop.
-Analyzing loop at countable.cpp:28
-
-28: vect_model_store_cost: aligned.
-28: vect_get_data_access_cost: inside_cost = 1, outside_cost = 0.
-28: vect_model_store_cost: aligned.
-28: vect_get_data_access_cost: inside_cost = 2, outside_cost = 0.
-28: vect_model_store_cost: aligned.
-28: vect_model_store_cost: inside_cost = 1, outside_cost = 1 .
-28: vect_model_store_cost: aligned.
-28: vect_model_store_cost: inside_cost = 1, outside_cost = 1 .
-28: Cost model analysis: 
-  Vector inside of loop cost: 2
-  Vector outside of loop cost: 2
-  Scalar iteration cost: 2
-  Scalar outside cost: 0
-  prologue iterations: 0
-  epilogue iterations: 0
-  Calculated minimum iters for profitability: 3
-
-28:   Profitability threshold = 2
-
-
-Vectorizing loop at countable.cpp:28
-
-28: LOOP VECTORIZED.
-countable.cpp:23: note: vectorized 1 loops in function.
