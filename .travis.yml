@@ -6,10 +6,11 @@ compiler:
 before_install:
   # update apt-get, install dependencies
   - sudo apt-get update -qq
-
-  - sudo apt-get install -qq doxygen
+  - sudo apt-get install -qq nasm
 
 # build each example
 script:
+  - cd lectures/assembly
+  - sh build.sh
   - cd lectures/auto_vectorization
   - sh build.sh 
