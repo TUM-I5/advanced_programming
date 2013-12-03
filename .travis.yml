@@ -12,5 +12,6 @@ before_install:
 script:
   - cd lectures/assembly
   - sh build.sh
+  - cd $HOME
   - cd lectures/auto_vectorization
   - sh build.sh 
