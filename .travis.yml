@@ -11,4 +11,5 @@ before_install:
 
 # build each example
 script:
-  - sh lectures/auto_vectorization/build.sh 
+  - cd lectures/auto_vectorization
+  - sh build.sh 
