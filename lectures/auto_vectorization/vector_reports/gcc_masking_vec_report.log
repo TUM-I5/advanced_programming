@@ -1,0 +1,33 @@
+
+Analyzing loop at masking.cpp:45
+
+45: not vectorized: loop contains function calls or data references that cannot be analyzed
+Analyzing loop at masking.cpp:35
+
+35: not vectorized: control flow in loop.
+Analyzing loop at masking.cpp:30
+
+30: vect_model_store_cost: aligned.
+30: vect_get_data_access_cost: inside_cost = 1, outside_cost = 0.
+30: vect_model_store_cost: aligned.
+30: vect_get_data_access_cost: inside_cost = 2, outside_cost = 0.
+30: vect_model_store_cost: aligned.
+30: vect_model_store_cost: inside_cost = 1, outside_cost = 1 .
+30: vect_model_store_cost: aligned.
+30: vect_model_store_cost: inside_cost = 1, outside_cost = 1 .
+30: Cost model analysis: 
+  Vector inside of loop cost: 2
+  Vector outside of loop cost: 2
+  Scalar iteration cost: 2
+  Scalar outside cost: 0
+  prologue iterations: 0
+  epilogue iterations: 0
+  Calculated minimum iters for profitability: 3
+
+30:   Profitability threshold = 2
+
+
+Vectorizing loop at masking.cpp:30
+
+30: LOOP VECTORIZED.
+masking.cpp:23: note: vectorized 1 loops in function.

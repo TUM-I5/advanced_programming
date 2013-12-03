@@ -1,0 +1,8 @@
+nested_loops.cpp(30): (col. 3) remark: vectorization support: unroll factor set to 4.
+nested_loops.cpp(30): (col. 3) remark: LOOP WAS VECTORIZED.
+nested_loops.cpp(41): (col. 5) remark: LOOP WAS VECTORIZED.
+nested_loops.cpp(41): (col. 5) remark: loop was not vectorized: unsupported data type.
+nested_loops.cpp(35): (col. 3) remark: loop was not vectorized: not inner loop.
+nested_loops.cpp(49): (col. 15) remark: vectorization support: call to function _ZNSolsEd cannot be vectorized.
+nested_loops.cpp(49): (col. 27) remark: vectorization support: call to function _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc cannot be vectorized.
+nested_loops.cpp(48): (col. 3) remark: loop was not vectorized: existence of vector dependence.

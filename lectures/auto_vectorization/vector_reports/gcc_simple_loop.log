@@ -1,0 +1,60 @@
+
+Analyzing loop at simple_loop.cpp:38
+
+38: not vectorized: loop contains function calls or data references that cannot be analyzed
+Analyzing loop at simple_loop.cpp:33
+
+33: vect_model_load_cost: aligned.
+33: vect_get_data_access_cost: inside_cost = 1, outside_cost = 0.
+33: vect_model_load_cost: aligned.
+33: vect_get_data_access_cost: inside_cost = 2, outside_cost = 0.
+33: vect_model_store_cost: aligned.
+33: vect_get_data_access_cost: inside_cost = 3, outside_cost = 0.
+33: vect_model_load_cost: aligned.
+33: vect_model_load_cost: inside_cost = 1, outside_cost = 0 .
+33: vect_model_load_cost: aligned.
+33: vect_model_load_cost: inside_cost = 1, outside_cost = 0 .
+33: vect_model_simple_cost: inside_cost = 1, outside_cost = 0 .
+33: vect_model_store_cost: aligned.
+33: vect_model_store_cost: inside_cost = 1, outside_cost = 0 .
+33: Cost model analysis: 
+  Vector inside of loop cost: 4
+  Vector outside of loop cost: 0
+  Scalar iteration cost: 4
+  Scalar outside cost: 0
+  prologue iterations: 0
+  epilogue iterations: 0
+  Calculated minimum iters for profitability: 1
+
+33:   Profitability threshold = 1
+
+
+Vectorizing loop at simple_loop.cpp:33
+
+33: LOOP VECTORIZED.
+Analyzing loop at simple_loop.cpp:28
+
+28: vect_model_store_cost: aligned.
+28: vect_get_data_access_cost: inside_cost = 1, outside_cost = 0.
+28: vect_model_store_cost: aligned.
+28: vect_get_data_access_cost: inside_cost = 2, outside_cost = 0.
+28: vect_model_store_cost: aligned.
+28: vect_model_store_cost: inside_cost = 1, outside_cost = 1 .
+28: vect_model_store_cost: aligned.
+28: vect_model_store_cost: inside_cost = 1, outside_cost = 1 .
+28: Cost model analysis: 
+  Vector inside of loop cost: 2
+  Vector outside of loop cost: 2
+  Scalar iteration cost: 2
+  Scalar outside cost: 0
+  prologue iterations: 0
+  epilogue iterations: 0
+  Calculated minimum iters for profitability: 3
+
+28:   Profitability threshold = 2
+
+
+Vectorizing loop at simple_loop.cpp:28
+
+28: LOOP VECTORIZED.
+simple_loop.cpp:23: note: vectorized 2 loops in function.

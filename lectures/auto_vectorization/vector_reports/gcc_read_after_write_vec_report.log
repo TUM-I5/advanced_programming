@@ -1,0 +1,34 @@
+
+Analyzing loop at read_after_write.cpp:38
+
+38: not vectorized: loop contains function calls or data references that cannot be analyzed
+Analyzing loop at read_after_write.cpp:33
+
+33: dependence distance  = 1.
+33: not vectorized, possible dependence between data-refs l_a[D.21258_9] and l_a[l_i_52]
+Analyzing loop at read_after_write.cpp:28
+
+28: vect_model_store_cost: aligned.
+28: vect_get_data_access_cost: inside_cost = 1, outside_cost = 0.
+28: vect_model_store_cost: aligned.
+28: vect_get_data_access_cost: inside_cost = 2, outside_cost = 0.
+28: vect_model_store_cost: aligned.
+28: vect_model_store_cost: inside_cost = 1, outside_cost = 1 .
+28: vect_model_store_cost: aligned.
+28: vect_model_store_cost: inside_cost = 1, outside_cost = 1 .
+28: Cost model analysis: 
+  Vector inside of loop cost: 2
+  Vector outside of loop cost: 2
+  Scalar iteration cost: 2
+  Scalar outside cost: 0
+  prologue iterations: 0
+  epilogue iterations: 0
+  Calculated minimum iters for profitability: 3
+
+28:   Profitability threshold = 2
+
+
+Vectorizing loop at read_after_write.cpp:28
+
+28: LOOP VECTORIZED.
+read_after_write.cpp:23: note: vectorized 1 loops in function.
