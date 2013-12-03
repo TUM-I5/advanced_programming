@@ -19,15 +19,15 @@
 mkdir build
 mkdir vector_reports
 
-g++ -O2 -ftree-vectorizer-verbose=6 simple_loop.cpp -o build/gcc_simple_loop.exe 2>&1 | tee vector_reports/gcc_simple_loop.log
+g++ -O3 -ftree-vectorizer-verbose=6 simple_loop.cpp -o build/gcc_simple_loop.exe 2>&1 | tee vector_reports/gcc_simple_loop.log
 
-g++ -O2 -ftree-vectorizer-verbose=6 countable.cpp -o build/gcc_non_countable.exe 2>&1 | tee vector_reports/gcc_non_countable_vec_report.log
+g++ -O3 -ftree-vectorizer-verbose=6 countable.cpp -o build/gcc_non_countable.exe 2>&1 | tee vector_reports/gcc_non_countable_vec_report.log
 
-g++ -O2 -ftree-vectorizer-verbose=6 -DCOUNTABLE countable.cpp -o build/gcc_countable.exe 2>&1 | tee vector_reports/gcc_countable_vec_report.log
+g++ -O3 -ftree-vectorizer-verbose=6 -DCOUNTABLE countable.cpp -o build/gcc_countable.exe 2>&1 | tee vector_reports/gcc_countable_vec_report.log
 
-g++ -O2 -ftree-vectorizer-verbose=6 masking.cpp -o build/gcc_masking.exe 2>&1 | tee vector_reports/gcc_masking_vec_report.log
+g++ -O3 -ftree-vectorizer-verbose=6 masking.cpp -o build/gcc_masking.exe 2>&1 | tee vector_reports/gcc_masking_vec_report.log
 
-g++ -O2 -ftree-vectorizer-verbose=6 read_after_write.cpp -o build/gcc_read_after_write.exe 2>&1 | tee vector_reports/gcc_read_after_write_vec_report.log
+g++ -O3 -ftree-vectorizer-verbose=6 read_after_write.cpp -o build/gcc_read_after_write.exe 2>&1 | tee vector_reports/gcc_read_after_write_vec_report.log
 
 
 icpc -O2 -mavx -vec-report6 simple_loop.cpp -o build/intel_non_countable.exe 2>&1 | tee vector_reports/intel_simple_loop_vec_report.log
