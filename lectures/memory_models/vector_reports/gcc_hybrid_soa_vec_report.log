@@ -1,0 +1,5 @@
+
+Analyzing loop at hybrid_soa.cpp:53
+
+53: not vectorized: unsupported data-type
+hybrid_soa.cpp:32: note: vectorized 0 loops in function.

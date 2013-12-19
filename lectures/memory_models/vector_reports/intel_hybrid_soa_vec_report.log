@@ -1,0 +1,6 @@
+hybrid_soa.cpp(38): (col. 5) remark: LOOP WAS VECTORIZED.
+hybrid_soa.cpp(37): (col. 3) remark: loop was not vectorized: not inner loop.
+hybrid_soa.cpp(56): (col. 7) remark: vectorization support: unroll factor set to 4.
+hybrid_soa.cpp(56): (col. 7) remark: LOOP WAS VECTORIZED.
+hybrid_soa.cpp(55): (col. 5) remark: loop was not vectorized: not inner loop.
+hybrid_soa.cpp(53): (col. 3) remark: loop was not vectorized: not inner loop.

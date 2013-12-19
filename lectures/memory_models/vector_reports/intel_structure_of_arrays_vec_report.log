@@ -1,0 +1,4 @@
+structure_of_arrays.cpp(38): (col. 3) remark: LOOP WAS VECTORIZED.
+structure_of_arrays.cpp(54): (col. 5) remark: vectorization support: unroll factor set to 4.
+structure_of_arrays.cpp(54): (col. 5) remark: LOOP WAS VECTORIZED.
+structure_of_arrays.cpp(52): (col. 3) remark: loop was not vectorized: not inner loop.

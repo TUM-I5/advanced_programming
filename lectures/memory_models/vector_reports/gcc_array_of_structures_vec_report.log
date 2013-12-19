@@ -1,0 +1,5 @@
+
+Analyzing loop at array_of_structures.cpp:48
+
+48: not vectorized: unsupported data-type
+array_of_structures.cpp:29: note: vectorized 0 loops in function.
