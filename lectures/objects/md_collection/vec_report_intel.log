@@ -1,0 +1,5 @@
+Molecules.cpp(28): (col. 39) remark: vectorization support: call to function _Znam cannot be vectorized.
+Molecules.cpp(28): (col. 3) remark: loop was not vectorized: existence of vector dependence.
+Molecules.cpp(19): (col. 12) remark: vectorization support: call to function _Znam cannot be vectorized.
+Molecules.cpp(19): (col. 12) remark: loop was not vectorized: existence of vector dependence.
+Molecules.cpp(57): (col. 35) remark: routine skipped: no vectorization candidates.

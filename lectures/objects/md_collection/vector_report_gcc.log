@@ -1,0 +1,98 @@
+
+Analyzing loop at Molecules.cpp:59
+
+59: dependence distance  = 0.
+59: dependence distance == 0 between *D.21481_13 and *D.21481_13
+59: versioning for alias required: can't determine dependence between *D.21481_13 and *D.21490_30
+59: mark for run-time aliasing test between *D.21481_13 and *D.21490_30
+59: versioning for alias required: can't determine dependence between *D.21481_13 and *D.21498_47
+59: mark for run-time aliasing test between *D.21481_13 and *D.21498_47
+59: versioning for alias required: can't determine dependence between this_3(D)->m_deltaT and *D.21481_13
+59: mark for run-time aliasing test between this_3(D)->m_deltaT and *D.21481_13
+59: versioning for alias required: can't determine dependence between this_3(D)->m_deltaT and *D.21490_30
+59: mark for run-time aliasing test between this_3(D)->m_deltaT and *D.21490_30
+59: versioning for alias required: can't determine dependence between this_3(D)->m_deltaT and *D.21498_47
+59: mark for run-time aliasing test between this_3(D)->m_deltaT and *D.21498_47
+59: versioning for alias required: can't determine dependence between *D.21485_19 and *D.21481_13
+59: mark for run-time aliasing test between *D.21485_19 and *D.21481_13
+59: versioning for alias required: can't determine dependence between *D.21485_19 and *D.21490_30
+59: mark for run-time aliasing test between *D.21485_19 and *D.21490_30
+59: versioning for alias required: can't determine dependence between *D.21485_19 and *D.21498_47
+59: mark for run-time aliasing test between *D.21485_19 and *D.21498_47
+59: versioning for alias required: can't determine dependence between *D.21481_13 and *D.21490_30
+59: mark for run-time aliasing test between *D.21481_13 and *D.21490_30
+59: versioning for alias required: can't determine dependence between *D.21481_13 and this_3(D)->m_deltaT
+59: mark for run-time aliasing test between *D.21481_13 and this_3(D)->m_deltaT
+59: versioning for alias required: can't determine dependence between *D.21481_13 and *D.21493_36
+59: mark for run-time aliasing test between *D.21481_13 and *D.21493_36
+59: versioning for alias required: can't determine dependence between *D.21481_13 and *D.21490_30
+59: mark for run-time aliasing test between *D.21481_13 and *D.21490_30
+59: versioning for alias required: can't determine dependence between *D.21481_13 and *D.21498_47
+59: mark for run-time aliasing test between *D.21481_13 and *D.21498_47
+59: versioning for alias required: can't determine dependence between *D.21481_13 and this_3(D)->m_deltaT
+59: mark for run-time aliasing test between *D.21481_13 and this_3(D)->m_deltaT
+59: versioning for alias required: can't determine dependence between *D.21481_13 and *D.21501_53
+59: mark for run-time aliasing test between *D.21481_13 and *D.21501_53
+59: versioning for alias required: can't determine dependence between *D.21481_13 and *D.21498_47
+59: mark for run-time aliasing test between *D.21481_13 and *D.21498_47
+59: dependence distance  = 0.
+59: dependence distance == 0 between *D.21490_30 and *D.21490_30
+59: versioning for alias required: can't determine dependence between *D.21490_30 and *D.21498_47
+59: mark for run-time aliasing test between *D.21490_30 and *D.21498_47
+59: versioning for alias required: can't determine dependence between this_3(D)->m_deltaT and *D.21490_30
+59: mark for run-time aliasing test between this_3(D)->m_deltaT and *D.21490_30
+59: versioning for alias required: can't determine dependence between this_3(D)->m_deltaT and *D.21498_47
+59: mark for run-time aliasing test between this_3(D)->m_deltaT and *D.21498_47
+59: versioning for alias required: can't determine dependence between *D.21493_36 and *D.21490_30
+59: mark for run-time aliasing test between *D.21493_36 and *D.21490_30
+59: versioning for alias required: can't determine dependence between *D.21493_36 and *D.21498_47
+59: mark for run-time aliasing test between *D.21493_36 and *D.21498_47
+59: versioning for alias required: can't determine dependence between *D.21490_30 and *D.21498_47
+59: mark for run-time aliasing test between *D.21490_30 and *D.21498_47
+59: versioning for alias required: can't determine dependence between *D.21490_30 and this_3(D)->m_deltaT
+59: mark for run-time aliasing test between *D.21490_30 and this_3(D)->m_deltaT
+59: versioning for alias required: can't determine dependence between *D.21490_30 and *D.21501_53
+59: mark for run-time aliasing test between *D.21490_30 and *D.21501_53
+59: versioning for alias required: can't determine dependence between *D.21490_30 and *D.21498_47
+59: mark for run-time aliasing test between *D.21490_30 and *D.21498_47
+59: dependence distance  = 0.
+59: dependence distance == 0 between *D.21498_47 and *D.21498_47
+59: versioning for alias required: can't determine dependence between this_3(D)->m_deltaT and *D.21498_47
+59: mark for run-time aliasing test between this_3(D)->m_deltaT and *D.21498_47
+59: versioning for alias required: can't determine dependence between *D.21501_53 and *D.21498_47
+59: mark for run-time aliasing test between *D.21501_53 and *D.21498_47
+59: dependence distance  = 0.
+59: accesses have the same alignment.
+59: dependence distance modulo vf == 0 between *D.21481_13 and *D.21481_13
+59: dependence distance  = 0.
+59: accesses have the same alignment.
+59: dependence distance modulo vf == 0 between this_3(D)->m_deltaT and this_3(D)->m_deltaT
+59: dependence distance  = 1.
+59: dependence distance  = 0.
+59: accesses have the same alignment.
+59: dependence distance modulo vf == 0 between this_3(D)->m_deltaT and this_3(D)->m_deltaT
+59: dependence distance  = 1.
+59: dependence distance  = 0.
+59: accesses have the same alignment.
+59: dependence distance modulo vf == 0 between *D.21490_30 and *D.21490_30
+59: dependence distance  = 0.
+59: accesses have the same alignment.
+59: dependence distance modulo vf == 0 between this_3(D)->m_deltaT and this_3(D)->m_deltaT
+59: dependence distance  = 1.
+59: dependence distance  = 0.
+59: accesses have the same alignment.
+59: dependence distance modulo vf == 0 between *D.21498_47 and *D.21498_47
+59: found equal ranges *D.21481_13, *D.21490_30 and *D.21481_13, *D.21490_30
+59: found equal ranges *D.21481_13, this_3(D)->m_deltaT and this_3(D)->m_deltaT, *D.21481_13
+59: found equal ranges *D.21481_13, *D.21490_30 and *D.21481_13, *D.21490_30
+59: found equal ranges *D.21481_13, *D.21498_47 and *D.21481_13, *D.21498_47
+59: found equal ranges *D.21481_13, this_3(D)->m_deltaT and this_3(D)->m_deltaT, *D.21481_13
+59: found equal ranges *D.21481_13, *D.21498_47 and *D.21481_13, *D.21498_47
+59: found equal ranges this_3(D)->m_deltaT, *D.21490_30 and this_3(D)->m_deltaT, *D.21490_30
+59: found equal ranges this_3(D)->m_deltaT, *D.21498_47 and this_3(D)->m_deltaT, *D.21498_47
+59: found equal ranges *D.21490_30, *D.21498_47 and *D.21490_30, *D.21498_47
+59: found equal ranges *D.21490_30, this_3(D)->m_deltaT and this_3(D)->m_deltaT, *D.21490_30
+59: found equal ranges *D.21490_30, *D.21498_47 and *D.21490_30, *D.21498_47
+59: found equal ranges this_3(D)->m_deltaT, *D.21498_47 and this_3(D)->m_deltaT, *D.21498_47
+59: disable versioning for alias - max number of generated checks exceeded.
+Molecules.cpp:57: note: vectorized 0 loops in function.
