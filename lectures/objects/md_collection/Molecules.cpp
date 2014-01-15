@@ -35,9 +35,8 @@ Molecules::Molecules( int    i_numberOfMolecules,
 
 Molecules::~Molecules() {
   std::cout << "freeing Memory" << std::endl;
-
-  delete[] m_x,         m_y,         m_z,
-           m_velocityX, m_velocityY, m_velocityZ;
+  delete[] m_x; delete[] m_y; delete[] m_z;
+  delete[] m_velocityX; delete[] m_velocityY; delete[] m_velocityZ;
 }
 
 void Molecules::setInitialValues(       int    i_moleculeId,
