@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+  Copyright (c) 2013-2014
+  Technische Universitaet Muenchen
+  Department of Informatics
+  Chair of Scientific Computing
+  http://www5.in.tum.de/
+  This file shows usage of XML.
+-->
+<advanced_programming lecturer="Alex Breuer">
+  <sessions>
+    <session topic="Streams" sleepy_students="2">
+      <duration hours="1" minutes="5" />
+    </session>
+    <session topic="File I/O with XML" sleepy_students="1">
+      <duration hours="0" minutes="30" />
+    </session>
+  </sessions>
+</advanced_programming>
